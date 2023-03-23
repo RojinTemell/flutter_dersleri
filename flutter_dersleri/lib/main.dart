@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import '101/image_learn.dart';
+
+import 'demos/note_demos_app.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData.light(),
-      home: const ImageLearnView(),
+      home: NoteApp(),
     );
   }
 }
