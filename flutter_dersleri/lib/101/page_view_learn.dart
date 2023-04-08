@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_dersleri/101/icon_learn.dart';
 
 import 'custom_widget_learn.dart';
-import 'list_tile_learn.dart';
+//import 'list_tile_learn.dart';
 
 class PageViewLearn extends StatefulWidget {
   const PageViewLearn({super.key});

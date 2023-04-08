@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_dersleri/101/image_learn.dart';
+//import 'package:flutter_dersleri/101/image_learn.dart';
 import 'package:flutter_dersleri/core/random_image.dart';
 
 class ListTileLearnView extends StatelessWidget {

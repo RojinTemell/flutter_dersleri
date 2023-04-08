@@ -47,11 +47,13 @@ class SizedBoxHeights {
   final double sbheight = 50;
 }
 
+// ignore: camel_case_types
 class _subtitleWidget extends StatelessWidget {
   const _subtitleWidget(
       {Key? key, required this.description, required this.textAlign})
       : super(key: key);
 
+  // ignore: prefer_typing_uninitialized_variables
   final description;
   final TextAlign textAlign;
 
@@ -77,6 +79,7 @@ class _ProjectPadding {
 class ProjectText extends StatelessWidget {
   const ProjectText({Key? key, required this.name_}) : super(key: key);
 
+  // ignore: prefer_typing_uninitialized_variables
   final name_;
 
   @override
@@ -99,12 +102,15 @@ class ProjectTexts {
   final String _title = 'Create Your First Note';
   final String desc =
       "Add a note about anything (your thoughts on climate change, or your history essay and share it witht the world.";
+  // ignore: non_constant_identifier_names
   final String button_name1 = "Create A Note";
+  // ignore: non_constant_identifier_names
   final String button_name2 = "Import Notes";
 }
 
 class ImagePath extends StatelessWidget {
   const ImagePath({Key? key, required this.name}) : super(key: key);
+  // ignore: prefer_typing_uninitialized_variables
   final name;
   @override
   Widget build(BuildContext context) {

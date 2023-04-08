@@ -19,19 +19,19 @@ class _StatefullLifeCycleLearnViewState
   void didChangeDependencies() {
     //initSatate den sonra çalışır
     super.didChangeDependencies();
-    print('c');
+    // print('c');
   }
 
   @override
   void didUpdateWidget(covariant StatefullLifeCycleLearnView oldWidget) {
     super.didUpdateWidget(oldWidget);
-    print('b');
+    //print('b');
   }
 
   @override
   void dispose() {
     super.dispose();
-    print('dispose sayfanın öldüğü an çıkış');
+    // print('dispose sayfanın öldüğü an çıkış');
   }
 
   @override
@@ -40,7 +40,7 @@ class _StatefullLifeCycleLearnViewState
     _message = widget.message;
     _isOdd = widget.message.length.isOdd;
     _computeName();
-    print('a');
+    // print('a');
   }
 
   void _computeName() {
