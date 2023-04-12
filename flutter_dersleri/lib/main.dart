@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '101/navigation_learn.dart';
+import '202/model_learn_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,8 +12,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      theme: ThemeData.light(),
-      home: const NavigationLearnView(),
+      theme: ThemeData.dark().copyWith(
+          tabBarTheme: const TabBarTheme(
+              labelColor: Colors.green,
+              unselectedLabelColor: Colors.red,
+              indicatorSize: TabBarIndicatorSize.label)),
+      home: const ModelLearn(),
     );
   }
 }
